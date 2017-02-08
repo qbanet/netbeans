@@ -1,5 +1,5 @@
 <?php
-interface Logger {
+interface  Logger {
 public function log($message);
 }
 class FileLogger implements Logger {
